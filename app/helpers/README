@@ -1,0 +1,9 @@
+### Place helper methods (functionality that is shared between controllers and views) in this folder -- for example:
+
+#app/helpers/formatting.rb
+
+helpers do
+  def em(text)
+    "<em>#{text}</em>"
+  end
+end
